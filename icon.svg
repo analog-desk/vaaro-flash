@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Vaaro Flash: a generic 35mm film SLR with a speedlight on the hot shoe -->
+  <rect width="512" height="512" fill="#0e0f11"/>
+  <g transform="translate(0 30)">
+    <!-- flash light rays -->
+    <g stroke="#f3c552" stroke-width="9" stroke-linecap="round">
+      <line x1="186" y1="66" x2="158" y2="44"/>
+      <line x1="182" y1="92" x2="148" y2="92"/>
+      <line x1="186" y1="118" x2="158" y2="140"/>
+      <line x1="326" y1="66" x2="354" y2="44"/>
+      <line x1="330" y1="92" x2="364" y2="92"/>
+      <line x1="326" y1="118" x2="354" y2="140"/>
+    </g>
+    <!-- flash unit -->
+    <rect x="228" y="112" width="56" height="78" rx="8" fill="#2a2c31"/>
+    <rect x="202" y="60" width="108" height="64" rx="12" fill="#2a2c31"/>
+    <rect x="216" y="72" width="80" height="40" rx="7" fill="#f3c552"/>
+    <rect x="232" y="184" width="48" height="12" rx="3" fill="#7c7b77"/>
+    <!-- pentaprism and top plate (chrome) -->
+    <path d="M190 246 L218 196 L294 196 L322 246 Z" fill="#d9d6cf"/>
+    <rect x="70" y="226" width="40" height="22" rx="5" fill="#a9a8a3"/>
+    <rect x="388" y="222" width="34" height="26" rx="5" fill="#a9a8a3"/>
+    <rect x="62" y="240" width="388" height="52" rx="18" fill="#d9d6cf"/>
+    <!-- body (leatherette) -->
+    <rect x="62" y="272" width="388" height="132" rx="20" fill="#2a2c31"/>
+    <rect x="62" y="272" width="388" height="10" fill="#3d414a"/>
+    <!-- lens -->
+    <circle cx="256" cy="332" r="84" fill="#1e2024" stroke="#d9d6cf" stroke-width="10"/>
+    <circle cx="256" cy="332" r="58" fill="#16171a" stroke="#3d414a" stroke-width="8"/>
+    <circle cx="256" cy="332" r="34" fill="#0e0f11"/>
+    <ellipse cx="240" cy="316" rx="13" ry="8" fill="#8fb8f2" opacity="0.55" transform="rotate(-35 240 316)"/>
+  </g>
+</svg>
