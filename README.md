@@ -16,6 +16,17 @@ npm run build        # production build → dist/
 npm run build:single # one self-contained HTML file → dist-single/index.html
 ```
 
+## On your phone
+
+The app is published with GitHub Pages at **https://analog-desk.github.io/vaaro-flash/** and installs like an app
+(home-screen icon, full screen, works offline after the first visit).
+
+* **iPhone (Safari):** open the link → Share button → *Add to Home Screen* → Add.
+* **Android (Chrome):** open the link → ⋮ menu → *Add to Home screen* / *Install app*.
+
+To publish a new version: `npm run deploy` (builds the single-file app and pushes it to the `gh-pages` branch).
+One-time setup on GitHub: *Settings → Pages → Build and deployment → Source: Deploy from a branch → `gh-pages` / root*.
+
 ## Structure
 
 | Module | What it holds |
